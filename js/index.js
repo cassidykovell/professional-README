@@ -1,8 +1,10 @@
+//
 const inquirer = require("inquirer");
 const fs = require("fs");
 const renderLicenseBadge = require('./generateMarkdown.js');
 const renderLicenseSection = require('./generateMarkdown.js')
 
+//questions that the user will be asked to generate the README
 const questions = [
   {
     type: "input",
@@ -66,6 +68,7 @@ const questions = [
   },
 ];
 
+//creates the README with the data the user inputted 
 function writeToFile(fileName, data) {
     const licenseBadge = renderLicenseBadge(data.license);
     const readmeInfo = `
@@ -108,8 +111,9 @@ ${data.contribute}
 ${data.tests}
 
 ## Questions
-${data.github}
-${data.email}
+GitHub Username: ${data.github}
+Github Profile link: https://github.com/${data.github}
+Email: ${data.email}
 ${data.contact}
 `;
   fs.writeFile(fileName, readmeInfo, (err) => {
@@ -117,6 +121,7 @@ ${data.contact}
   });
 }
 
+//function for prompting the questions, getting the data, and writing the README
 function init() {
   inquirer.prompt(questions).then((data) => {
     writeToFile("README.md", data);
