@@ -99,8 +99,6 @@ ${data.credits}
 ## License
 ${renderLicenseSection(data.license)}
 
-## Badges
-
 ## Features 
 ${data.features}
 

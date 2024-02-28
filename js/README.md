@@ -29,7 +29,7 @@ Me
 ## Badges
 
 ## Features 
-Generates README
+Generates a README
 
 ## Contributing
 N/A
@@ -41,4 +41,4 @@ N/A
 GitHub Username: cassidykovell
 Github Profile link: https://github.com/cassidykovell
 Email: cassidy0kovell@gmail.com
-Email
+The best way to contact me: Email
