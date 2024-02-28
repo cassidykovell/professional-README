@@ -17,6 +17,7 @@ In order to install this tool you should clone the repository: git clone noe git
 ## Usage
 To use this application type ‘node index’ in the command line and answer  the questions prompted to you.
 
+[See video demonstration](https://drive.google.com/file/d/15UgD-mwegYuxsutdEAhkRO-jATaPM-O1/view)
 ![alttext](./assets/SC.png)
 ## Credits
 Cassidy Kovell with help from my class instructor and the Xpert Learning Assistant.

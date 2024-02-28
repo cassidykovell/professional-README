@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
 ## Description
-This is a sample README
+This is a sample README.
     
  ## Table of Contents
 - [Installation](#installation)
@@ -25,8 +25,6 @@ Me
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Badges
 
 ## Features 
 Generates a README
