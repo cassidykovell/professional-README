@@ -104,7 +104,7 @@ ${renderLicenseSection(data.license)}
 ## Features 
 ${data.features}
 
-## How to Contribute
+## Contributing
 ${data.contribute}
 
 ## Tests
