@@ -114,7 +114,7 @@ ${data.tests}
 GitHub Username: ${data.github}
 Github Profile link: https://github.com/${data.github}
 Email: ${data.email}
-${data.contact}
+The best way to contact me: ${data.contact}
 `;
   fs.writeFile(fileName, readmeInfo, (err) => {
     err ? console.log(err) : console.log("Success");
